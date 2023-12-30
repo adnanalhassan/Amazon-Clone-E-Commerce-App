@@ -9,27 +9,26 @@ function Home() {
             <img 
               className='home__image'
               src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"/>
-
               <div className="home__row">
                 <Product
                 id="12321341"
                 title='The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback' 
                 price={29.99} 
-                image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
+                image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg'
                 rating={5} />
                 <Product 
                 id="49538094"
                 title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
                 price={239.0}
                 rating={4}
-                image="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ7tdwqMGJ4bNNZzz9YdJJ1tgqhyfaaCuBUSkVT-ig5JlS86N8Ds2vBjeq9LO2Hi_zkS4_gOH3thmyNkWG1_P2t4CnlaXhJeAzFW8tu1daSLlgBvo_qRQWB3vECSj-hER_QDeGTIikrKUI&usqp=CAc"
+                image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
                 />
               </div>
 
               <div className="home__row">
               <Product 
               id="4903850"
-              title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+              title="Fitbit Inspire 2 Health & Fitness Tracker"
               price={199.99}
               rating={3}
               image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"

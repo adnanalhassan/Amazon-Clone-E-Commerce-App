@@ -6,7 +6,7 @@
     height: 100px;
     padding: 20px;
     background-color: #f3f3f3;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     border-radius: 3px;
 }
 
@@ -28,4 +28,6 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    outline: none;
+    padding: 5px;
 }
