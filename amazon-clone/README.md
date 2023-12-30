@@ -38,3 +38,5 @@ Express: A web application framework for Node.js.
 Node.js: A JavaScript runtime for server-side development.
 
 Firebase: A comprehensive app development platform that includes authentication and a real-time database.
+
+Jest: A JavaScript Testing Framework.
