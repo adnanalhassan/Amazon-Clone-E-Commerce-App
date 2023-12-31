@@ -1,5 +1,7 @@
 import Checkout from "./Checkout";
-import { shallow } from "enzyme";
+import { shallow } from "enzyme";import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
 
 describe(Checkout, () => {
     it("renders the basket page correctly", () => {

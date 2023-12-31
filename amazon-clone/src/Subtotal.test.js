@@ -4,6 +4,9 @@ import { render, fireEvent } from '@testing-library/react';
 import { useStateValue } from "./StateProvider";
 import { getBasketTotal } from "./reducer";
 import { MemoryRouter } from 'react-router-dom';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
 
 describe(Subtotal, () => {
     it("renders the subtotal correctly", () => {

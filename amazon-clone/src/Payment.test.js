@@ -3,6 +3,9 @@ import { shallow } from "enzyme";
 import { useStateValue } from "./StateProvider";
 import { Link } from "react-router-dom";
 import CurrencyFormat from "react-currency-format";
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
 
 describe(Payment, () => {
     it("renders the checkout page correctly", () => {
